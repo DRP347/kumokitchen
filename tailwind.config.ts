@@ -10,7 +10,10 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-texture': "url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(30 41 59 / 0.04)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e\")",
+        // We're keeping the old one, just in case
+        'hero-ramen': "url('https://images.unsplash.com/photo-1591814468924-caf88d1232e1')",
+        // Adding a new gradient
+        'hero-gradient': 'linear-gradient(to bottom, #111827, #030712)',
       },
     },
   },
