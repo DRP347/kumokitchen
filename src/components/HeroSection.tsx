@@ -16,7 +16,7 @@ const HeroSection = () => {
       />
 
       {/* 3. The dark overlay goes on top of the image. */}
-      <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+      <div className="absolute inset-0 "></div>
 
       {/* 4. The text content goes on top of the overlay. */}
       <div className="relative z-10 text-center text-white p-4">
