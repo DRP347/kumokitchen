@@ -9,9 +9,13 @@ if (!MONGODB_URI) {
   );
 }
 
+// We add this comment to tell ESLint to ignore the use of 'any' on the next line
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 let cached = (global as any).mongoose;
 
 if (!cached) {
+  // We add another comment here for the same reason
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   cached = (global as any).mongoose = { conn: null, promise: null };
 }
 
