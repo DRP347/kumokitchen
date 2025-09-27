@@ -7,11 +7,11 @@ import React, { createContext, useState, useContext, ReactNode } from 'react';
 export interface MenuItem {
   _id: string;
   name: string;
+  description: string; // <-- Add this line
   price: number;
   imageUrl: string;
   category: string;
 }
-
 interface CartItem extends MenuItem {
   quantity: number;
 }
