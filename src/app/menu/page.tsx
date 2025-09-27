@@ -4,11 +4,12 @@ import { MenuItem } from '@/context/CartContext';
 
 async function getMenuItems(): Promise<MenuItem[]> {
   try {
-    // Add { cache: 'no-store' } here
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/menu`, {
       cache: 'no-store',
     });
+
     if (!res.ok) {
+        console.error("Failed to fetch menu items, status:", res.status);
         return [];
     }
     const data = await res.json();
