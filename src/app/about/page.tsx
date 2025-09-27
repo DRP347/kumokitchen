@@ -19,7 +19,7 @@ const AboutPage = () => {
         {/* Feature Image */}
         <div className="relative w-full h-96 max-w-5xl mx-auto my-16 rounded-lg overflow-hidden shadow-2xl shadow-red-900/20">
           <Image
-            src="/chef-portrait.jpg" // You'll need to find an image for this
+            src="/chef-portrait.png" // You'll need to find an image for this
             alt="A chef carefully preparing a dish"
             layout="fill"
             objectFit="cover"

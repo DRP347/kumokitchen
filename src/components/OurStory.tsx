@@ -11,7 +11,7 @@ const OurStory = () => {
           <div className="md:w-1/2">
             <div className="relative w-full h-96 rounded-lg overflow-hidden shadow-2xl">
               <Image
-                src="/our-story.jpg" // The image you just added to /public
+                src="/our-story.png" // The image you just added to /public
                 alt="Chef preparing Japanese cuisine"
                 layout="fill"
                 objectFit="cover"
